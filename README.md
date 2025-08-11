@@ -106,7 +106,11 @@ spacing = { xs: 6, sm: 10, md: 16, lg: 20 };
 typography = { h1: 24, h2: 22, body: 16, caption: 13 };
 ```
 
-## 🚀 Getting Started
+## � Download APK
+
+Download the latest Android APK build here: [DocGrow APK](https://drive.google.com/file/d/1_UHX9CWGRVZLoUvkKyZlx2W0awkKbJ4o/view?usp=sharing)
+
+## �🚀 Getting Started
 
 ### Prerequisites
 
