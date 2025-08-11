@@ -152,6 +152,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 2,
     fontSize: 12,
+    color: colors.text,
   },
   row: {
     flexDirection: 'row',
@@ -164,5 +165,5 @@ const styles = StyleSheet.create({
   patient: { fontWeight: '600', color: colors.text },
   sub: { color: '#6B7280' },
   time: { fontWeight: '600', color: colors.text },
-  empty: { color: '#6B7280' },
+  empty: { color: colors.muted },
 });

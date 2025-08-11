@@ -10,6 +10,12 @@ export default function StatusPill({ status, style }: Props) {
       : status === 'pending'
       ? '#FEF9C3'
       : '#FEE2E2';
+  const textColor =
+    status === 'confirmed'
+      ? '#065F46'
+      : status === 'pending'
+      ? '#92400E'
+      : '#991B1B';
   const label =
     status === 'confirmed'
       ? 'Confirmed'
@@ -18,7 +24,7 @@ export default function StatusPill({ status, style }: Props) {
       : 'Canceled';
   return (
     <View style={[styles.wrap, { backgroundColor: bg }, style]}>
-      <Text style={styles.txt}>{label}</Text>
+      <Text style={[styles.txt, { color: textColor }]}>{label}</Text>
     </View>
   );
 }

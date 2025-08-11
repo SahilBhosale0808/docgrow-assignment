@@ -100,7 +100,7 @@ export default function AddAppointment({ navigation, setAppointments }: Props) {
           style={[styles.btn, styles.cancel]}
           onPress={() => navigation.goBack()}
         >
-          <Text style={styles.btnTxt}>Cancel</Text>
+          <Text style={styles.cancelBtnTxt}>Cancel</Text>
         </Pressable>
         <Pressable style={[styles.btn, styles.save]} onPress={onSave}>
           <Text style={styles.btnTxt}>Save</Text>
@@ -139,4 +139,5 @@ const styles = StyleSheet.create({
   cancel: { backgroundColor: '#E5E7EB' },
   save: { backgroundColor: colors.primary },
   btnTxt: { color: '#fff', fontWeight: '600' },
+  cancelBtnTxt: { color: '#374151', fontWeight: '600' },
 });
